@@ -1,4 +1,4 @@
-#Source File Name: TribbleTroubles1.py
+#Source File Name: GUIAttemptPyGame.py
 #Author's Name: Paige Harvey
 #Last Modified By: Paige Harvey
 #Last Modified On: 2012-06-03
@@ -8,7 +8,14 @@
 
 import pygame, Buttons
 
-
+##                    Buttons.py was NOT written by Paige Harvey
+##                        It was written by Simon H. Larsen,
+##                        who then made it avaliable for download,
+##                        which was linked to PYGAME.org.
+##                    P Harvey downloaded it on June 3, 2013.
+##
+##                !~ REPEAT ~!
+##                    P Harvey did NOT write Buttons.py
 
 def texts(toPrint):
     font = pygame.font.SysFont("None", 30)
@@ -23,7 +30,7 @@ def main():
 
     background = pygame.Surface(screen.get_size())
     background = background.convert()
-    background = pygame.image.load("Avengers.jpg")
+    background = pygame.image.load("background.png")
     
 
     #Buttons?
